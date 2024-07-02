@@ -21,12 +21,14 @@ html ,body{
     height: 100%;
     color: white;
     font-size: 3rem;
+    cursor: none;
 }
 
 .cursor{
-    background:rgb(255, 255, 255);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
     position: absolute;
+    transition: all linear 0.02s;
+}
+
+.cursor img{
+    height: 50px;
 }

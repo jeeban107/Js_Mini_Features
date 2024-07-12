@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body ,html{
+    width: 100%;
+    height: 100%;
+}
+
+.rect{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    border-radius: 10px;
+    border: #dadada;
+    height: 300px;
+    width: 200px;
+}
